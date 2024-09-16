@@ -1,0 +1,66 @@
+{
+  "testUser": {
+    "username": "gordonlovesbjj",
+    "password": "gordon",
+    "_id": "5fecb71eae53a65c3c3cd4b7",
+    "watchlist": ["654cc5a088fa512d3951aaab"]
+  },
+  "testMovie1": {
+    "_id": "654cc5a088fa512d3951aaab",
+    "adult": false,
+    "belongs_to_collection": {
+      "id": 948485,
+      "name": "The Batman Collection",
+      "poster_path": "/tuzKA9K5Ae9IzaA0R9oAgbyhAI3.jpg",
+      "backdrop_path": "/qS2ViQwlWUECiAdkIuEaJZoq0QW.jpg"
+    },
+    "budget": 185000000,
+    "genres": [{ "id": 80, "name": "Crime" }],
+    "id": 948485,
+    "imdb_id": "tt1877830",
+    "original_language": "en",
+    "original_title": "The Batman",
+    "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City...",
+    "popularity": 130.96,
+    "poster_path": "74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "production_companies": [{ "name": "6th & Idaho", "id": 101405 }],
+    "production_countries": [{ "iso_3166_1": "US", "name": "United States of America" }],
+    "release_date": "2022-03-01",
+    "revenue": 770945583,
+    "runtime": 177,
+    "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+    "vote_sum": 67466.337,
+    "vote_count": 8763
+  },
+  "testMovie2": {
+    "_id": "6555df2db024f6173aab11fd",
+    "adult": false,
+    "belongs_to_collection": {
+      "id": 623911,
+      "name": "Captain Marvel Collection",
+      "poster_path": "/mHiMmryCureDvoAOlGP6o3oXT8Y.jpg",
+      "backdrop_path": "/ubZUKycnQldt2umj0bPD2VwXDJM.jpg"
+    },
+    "budget": 152000000,
+    "genres": [
+      { "id": 28, "name": "Action" },
+      { "id": 12, "name": "Adventure" },
+      { "id": 878, "name": "Science Fiction" }
+    ],
+    "id": 299537,
+    "imdb_id": "tt4154664",
+    "original_language": "en",
+    "original_title": "Captain Marvel",
+    "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+    "popularity": 105.741,
+    "poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+    "production_companies": [{ "name": "Marvel Studios", "id": 420 }],
+    "production_countries": [{ "iso_3166_1": "US", "name": "United States of America" }],
+    "release_date": "2019-03-06",
+    "revenue": 1131416446,
+    "runtime": 124,
+    "spoken_languages": [{ "iso_639_1": "en", "name": "English" }],
+    "vote_sum": 101063.06400000001,
+    "vote_count": 14777
+  }
+}

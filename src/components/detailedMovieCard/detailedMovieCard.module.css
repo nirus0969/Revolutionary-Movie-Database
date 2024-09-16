@@ -1,0 +1,22 @@
+:root {
+  --poster-width: 18.75rem;
+  --aspect: calc(235 / 165);
+
+  @media (max-width: 1024px) {
+    --poster-width: 15rem;
+  }
+
+  @media (max-width: 768px) {
+    --poster-width: 12.5rem;
+  }
+
+  @media (max-width: 480px) {
+    --poster-width: 18.75rem;
+  }
+}
+
+.poster {
+  min-width: var(--poster-width);
+  height: calc(var(--aspect) * var(--poster-width));
+  object-fit: cover;
+}

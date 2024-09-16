@@ -1,0 +1,38 @@
+.mainPageMovieCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  flex-shrink: 0;
+  background: var(--theme-onbackground, #aea3ec);
+}
+
+.movieCoverImage img {
+  width: 165px;
+  height: 235px;
+  object-fit: cover;
+}
+
+.movieCoverImage {
+  display: flex;
+  height: 240px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.mainPageMovieTitle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+  color: #000;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
